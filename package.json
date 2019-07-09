@@ -1,0 +1,21 @@
+{
+  "name": "i-vue-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src -d dist",
+    "watch": "npm run compile"
+  },
+  "bin": {
+    "hello": "hello.js",
+    "i-vue-cli": "./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "commander": "^2.20.0"
+  }
+}
