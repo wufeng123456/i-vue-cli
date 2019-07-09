@@ -4,3 +4,5 @@ program.command('install').description('install template').alias('i').action(() 
   console.log('action');
   install();
 });
+
+program.parse(process.argv);

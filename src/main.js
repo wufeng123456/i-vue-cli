@@ -8,3 +8,4 @@ program.command('install')
           install()
         })
  
+program.parse(process.argv)
